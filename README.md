@@ -1,0 +1,3 @@
+# EventsOfInterestPHP
+
+Shared class.
