@@ -1,6 +1,6 @@
 <?php
 
-namespace Achievers\EventsOfInterest;
+namespace mtozzo\EventsOfInterest;
 
 public class EventsOfInterest
 {

@@ -1,5 +1,5 @@
 {
-    "name": "achievers/events-of-interest-php",
+    "name": "mtozzo/events-of-interest-php",
     "description": "A sharable group of events that our systems can all use. This is the PHP implementation.",
     "type": "library",
     "require": {
