@@ -4,6 +4,10 @@ namespace mtozzo\EventsOfInterest;
 
 public class EventsOfInterest
 {
+    const PFA_THANK_YOU_EVENT = 'Thank You Event';
+    const PFA_RECOGNITION_EVENT = 'Recognition Event';
+    const PFA_MILESTONE_EVENT = 'Milestone Event';
+
     protected $eventType;
     protected $eventURL;
 
