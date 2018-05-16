@@ -1,6 +1,6 @@
 <?php
 
-declare(strict_types=1);
+declare (strict_types = 1);
 
 namespace mtozzo\EventsOfInterest;
 
@@ -12,7 +12,8 @@ class EventOfInterest
     protected $resourceURL;
 
     public function __construct(
-        EventTypeInterface $eventType, string $resourceURL
+        EventTypeInterface $eventType,
+        string $resourceURL
     ) {
         $this->eventType = $eventType;
         $this->resourceURL = $resourceURL;
@@ -20,16 +21,16 @@ class EventOfInterest
 
     /**
      * Get the value of eventType
-     */ 
-    public function getEventType(): string
+     */
+    public function getEventType(): EventTypeInterface
     {
         return $this->eventType;
     }
 
     /**
      * Get the value of eventURL
-     */ 
-    public function getResourceURL(): EventTypeInterface
+     */
+    public function getResourceURL(): string
     {
         return $this->resourceURL;
     }
