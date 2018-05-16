@@ -5,6 +5,7 @@ declare (strict_types = 1);
 namespace mtozzo\EventsOfInterest;
 
 use mtozzo\EventsOfInterest\EventTypes\EventTypeInterface;
+use mtozzo\EventsOfInterest\URL;
 
 class EventOfInterest
 {
@@ -13,7 +14,7 @@ class EventOfInterest
 
     public function __construct(
         EventTypeInterface $eventType,
-        string $resourceURL
+        URL $resourceURL
     ) {
         $this->eventType = $eventType;
         $this->resourceURL = $resourceURL;
@@ -30,7 +31,7 @@ class EventOfInterest
     /**
      * Get the value of eventURL
      */
-    public function getResourceURL(): string
+    public function getResourceURL(): URL
     {
         return $this->resourceURL;
     }
